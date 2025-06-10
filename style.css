@@ -1,0 +1,71 @@
+@font-face {
+    font-family: coolvetica;
+    src: url("Coolvetica Rg Cond.otf");
+}
+@font-face {
+    font-family: creato;
+    src: url("CreatoDisplay-Light.otf");
+}
+body {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr;
+    grid-template-rows: 1fr;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+nav {
+    background-color: #333333;
+    color: #e85002;
+    border-radius: 1em;
+    text-align: center;
+    margin: 1rem;
+}
+ul {
+    padding: 0;
+}
+li {
+    padding: 0.7em;
+    padding-left: 0;
+    list-style: none;
+    text-align: start;
+    font-family: creato;
+    font-size: 1.3em;
+    width: 100px;
+}
+li:hover {
+    background: #000000;
+    background: linear-gradient(201deg, rgba(0, 0, 0, 1) 0%, rgba(193, 8, 1, 1) 35%, rgba(241, 96, 1, 1) 72%, rgba(217, 195, 171, 1) 100%); 
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+h1,h2,h3 {
+    font-family: coolvetica;
+    background: #000000;
+    background: linear-gradient(201deg, rgba(0, 0, 0, 1) 0%, rgba(193, 8, 1, 1) 35%, rgba(241, 96, 1, 1) 72%, rgba(217, 195, 171, 1) 100%); 
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h3 {
+    font-size: 2em;
+    margin: 0;
+}
+h1 {
+    font-size: 3em;
+    margin: 0;
+    margin-top: 0.3em;
+
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+img {
+    width: fit-content;
+    height: fit-content;
+}
