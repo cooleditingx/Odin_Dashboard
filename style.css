@@ -41,7 +41,7 @@ li:hover {
     -webkit-text-fill-color: transparent;
     cursor: pointer;
 }
-h1,h2,h3 {
+h1,h3 {
     font-family: coolvetica;
     background: #000000;
     background: linear-gradient(201deg, rgba(0, 0, 0, 1) 0%, rgba(193, 8, 1, 1) 35%, rgba(241, 96, 1, 1) 72%, rgba(217, 195, 171, 1) 100%); 
@@ -59,13 +59,284 @@ h1 {
     margin-top: 0.3em;
 
 }
+.header {
+    font-size: 5em;
+    margin: 0 1.5rem ;
+}
+p {
+    color: white;
+    margin:1rem 1.5rem;
+    font-family: creato;
+    line-height: 1.5rem;
+}
 .flex {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
 }
+.flex1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 1.5em;
+}
 img {
     width: fit-content;
     height: fit-content;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 1rem;
+}
+button {
+    all: unset;
+    border: #e85002 solid 1px;
+    border-radius: 15px;
+    width: 90%;
+    height: 2.5em;
+    margin: 1ch;
+}
+button:hover {
+    cursor: text;
+}
+.searchbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    margin: 0 1ch;
+}
+
+.proj-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 8px;
+    margin: 1em;
+    margin-top: 0;
+    height: 100vh;
+}
+    
+.project1 {
+    grid-row: span 2 / span 2;
+    border-radius: 1em;
+    background-image: url(_Users_duaanas_Desktop_desktop_coding_Landing-page_index.html\(Nest\ Hub\ Max\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.project2 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    border-radius: 1em;
+    background-image: url(_Users_duaanas_Desktop_odin_suf_index.html\(Nest\ Hub\ Max\)\ \(2\).png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.project3 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-row-start: 3;
+    background-color: black;
+    background-position: center;
+    border-radius: 1em;
+    background-image: url(_Users_duaanas_Desktop_desktop_coding_odin-rps_game.html.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.project4 {
+    grid-row: span 2 / span 2;
+    grid-column-start: 3;
+    grid-row-start: 3;
+    background-color: black;
+    background-position: center;
+    border-radius: 1em;
+    background-image: url(_Users_duaanas_Desktop_odin_eas_index.html\(Nest\ Hub\ Max\).png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.project5 {
+    grid-row: span 2 / span 2;
+    grid-row-start: 5;
+    background-color: rgb(167, 167, 167);
+    border-radius: 1em;
+    background-image: url();
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.project6 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-row-start: 5;
+    background-color: rgb(100, 100, 100);
+    border-radius: 1em;
+    background-image: url();
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}  
+.icon1, .icon2, .icon3 {
+    padding: 0 1em;
+}  
+.progress-bar {
+    width: 8em;
+    height: 8em;
+    border-radius: 100%;
+    background-color: black;
+    align-items: center;
+}
+.progress-bar1 {
+    width: 12em;
+    height: 12em;
+    border-radius: 100%;
+    background: #000000;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background: linear-gradient(201deg, rgba(0, 0, 0, 1) 0%, rgba(193, 8, 1, 1) 35%, rgba(241, 96, 1, 1) 72%, rgba(217, 195, 171, 1) 100%); 
+}
+.subtext {
+    all: unset;
+    font-family: coolvetica;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    margin: 1rem 0;
+    color: #e85002;
+    width: 100%;
+    display: block;
+}
+.subtitle {
+    all: unset;
+    font-family: coolvetica;
+    font-size: 2em;
+    text-align: center;
+    color: #e85002;
+    border-radius: 18px;
+    background-color: #333333;
+    width: fit-content;
+    padding: 0.5ch;
+    margin: 0.5em 0;
+    display: block;
+    border: #333333 solid;
+}
+.total {
+    width: fit-content;
+    height: fit-content;
+    border-radius: 100%;
+    border: #333333 solid;
+    color: #e85002;
+    background-color: #333333;
+    padding: 0.7rem;
+}
+.info-sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.divider {
+    font-size: xxx-large;
+    color: #e85002;
+    margin: 0%;
+    padding: 0ch;
+}
+select {
+    background-color: #333333;
+    color: #e85002;
+    font-size: 1.5em;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    font-family: creato;
+    padding: 0 0.5rem;
+    padding-right: 1rem;
+    transform: translateY(4px);
+}
+select::content {
+    padding: 1rem;
+}
+select:focus-visible {
+    border: none;
+    outline: none;
+}
+select::picker-icon {
+    color: #999;
+    transition: 0.4s rotate;
+  }
+.subheading {
+
+    all: unset;
+    font-family: coolvetica;
+    font-size: 3em;
+    text-align: center;
+    color: #e85002;
+    margin: 1.5rem;
+
+}
+.flex2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.stack {
+    background-color: #a7a7a7;
+    border-radius: 15px;
+    width: 100%;
+    margin: 1.5rem;
+    height: 100%;
+}
+.stack-con {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+    margin: auto;
+    margin: 0 1.5rem;
+}
+a {
+    color: #e85002;
+    font-family: creato;
+    text-decoration: none;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+}
+div.flex3 a:hover {
+    background: #000000;
+    background: linear-gradient(201deg, rgba(0, 0, 0, 1) 0%, rgba(193, 8, 1, 1) 35%, rgba(241, 96, 1, 1) 72%, rgba(217, 195, 171, 1) 100%); 
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+.flex3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+a.project1:hover,
+a.project2:hover,
+a.project3:hover,
+a.project4:hover,
+a.project5:hover,
+a.project6:hover  {
+    border: #e85002 1px solid;
+    opacity: 70%;
+    padding: 0%;
 }
