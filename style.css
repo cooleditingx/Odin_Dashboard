@@ -128,6 +128,7 @@ button:hover {
     background-image: url("_Users_duaanas_Desktop_desktop_coding_Landing-page_index.html\(Nest\ Hub\ Max\).png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-clip: border-box;
     background-position: center;
 }
 .project2 {
@@ -137,6 +138,7 @@ button:hover {
     background-image: url("_Users_duaanas_Desktop_odin_suf_index.html\(Nest\ Hub\ Max\)\ \(2\).png");
     background-size: contain;
     background-position: center;
+    background-clip: border-box;
     background-repeat: no-repeat;
 }
 
@@ -149,6 +151,7 @@ button:hover {
     border-radius: 1em;
     background-image: url("_Users_duaanas_Desktop_desktop_coding_odin-rps_game.html.png");
     background-size: contain;
+    background-clip: border-box;
     background-repeat: no-repeat;
 }
 
@@ -159,6 +162,7 @@ button:hover {
     background-color: black;
     background-position: center;
     border-radius: 1em;
+    background-clip: border-box;
     background-image: url("_Users_duaanas_Desktop_odin_eas_index.html\(Nest\ Hub\ Max\).png");
     background-size: contain;
     background-repeat: no-repeat;
